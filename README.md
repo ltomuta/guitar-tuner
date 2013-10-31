@@ -7,14 +7,15 @@ listening mode, where it will play the audio of a given frequency, and the
 user can tune the guitar by ear. 
 
 This example application demonstrates:
-- the audio-in and audio-out interfaces of QtMobility::QtMultimediaKit
-- integrating Qt code to the Qt Quick UI.
 
-This example is hosted in Nokia Developer Projects:
-- http://projects.developer.nokia.com/guitartuner
+* The audio-in and audio-out interfaces of QtMobility::QtMultimediaKit.
+* Integrating Qt code to the Qt Quick UI.
+
+This example is hosted in GitHub:
+https://github.com/nokia-developer/guitar-tuner
 
 For more information on the implementation, visit the wiki pages:
-- http://projects.developer.nokia.com/guitartuner/wiki
+https://github.com/nokia-developer/guitar-tuner/wiki
 
 
 What's new
@@ -22,8 +23,8 @@ What's new
 
 The project structure has been fully refactored in version 2.0. The C++
 implementation is now wrapped in the QML plug-in "GuitarTuner 1.0". In addition,
-the communication model has been improved; the QML UI is logically controlling the
-application engine.
+the communication model has been improved; the QML UI is logically controlling
+the application engine.
 
 
 1. Running the application
@@ -155,7 +156,7 @@ application menu and launch the application by tapping the icon.
 
 See the license text file delivered with this project. The license file is also
 available online at
-http://projects.developer.nokia.com/guitartuner/browser/trunk/Licence.txt
+https://github.com/nokia-developer/guitar-tuner/blob/master/Licence.txt
 
 
 6. Version history
